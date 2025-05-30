@@ -2,7 +2,12 @@
 # SmartBot Pro - Aggressive Adaptive Version
 
 import time, random
+from binance.client import Client
 
+API_KEY = JOMWZQJqiSgCwE2bPNG5cgjqyNr99FKNaVbellhUM5wWC4xxpNdB8v2OqJf6k5Bl
+API_SECRET = ‏RVKOQlKIpoiy2ANs10wXqEYp9nLww7ZFaqkVq2hrDxqLjHLARsSH5S4nei7SF0LA
+
+client = Client(API_KEY, API_SECRET)
 def run_bot():
     balance = 157
     safety_orders = [0.12, 0.12, 0.18, 0.27, 0.31]
